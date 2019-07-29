@@ -16,7 +16,13 @@ margin: 5%;
 }
 .yellow {
   background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .green {
-  background-color: green;
+  background: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
