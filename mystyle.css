@@ -26,3 +26,6 @@ margin: 5%;
   align-items: center;
   justify-content: center;
 }
+#template {
+  display: none;
+}

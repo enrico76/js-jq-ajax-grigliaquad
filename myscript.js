@@ -4,6 +4,14 @@
 // Il numero ottenuto appare al centro del quadrato
 
 $(document).ready(function(){
+
+  for (var i = 0; i < 36; i++) {
+    var quad = $("#template .quadrato").clone();
+    $(".container").append(quad);
+
+
+  }
+
   // richiamo api dentro una variabile
   var apiNumrdm = "https://flynn.boolean.careers/exercises/api/random/int";
 
